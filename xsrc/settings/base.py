@@ -16,8 +16,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
+    'rest_framework',
     'django_extensions',    # python manage.py generate_secret_key => =y8an3t_9eb=-#4o)w)3d^y(x+_+pn*@-$j^$&*wk0515w0f40
     'blog.apps.BlogConfig',
+    'restapi.apps.RestapiConfig',
 ]
 
 MIDDLEWARE = [
